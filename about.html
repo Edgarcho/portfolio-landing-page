@@ -7,20 +7,28 @@
     <title>My Portfolio</title>
   </head>
   <body>
-    <a href="index.html">Home</a>
-    <a href="projects.html">Portfolio</a>
-    <h1>About</h1>
-      <img src="image/me1.jpg" alt="picture of me">
-      <p>Hola, my name is Edgar Hernandez. The oldest of four brothers.
-        I was the first person in my family to go to college. I graduated from University of Oregon
-        with a concentration on Applied Economics,Business and Society.</p>
-    <h2>Interest</h2>
-    <ol>
-      <li>Basketball</li>
-      <li>Drawing</li>
-      <li>Beatmaking</li>
-      <li>Hip-hop</li>
-    </ol>
+    <div class="nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Portfolio</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </div>
+    <h1 class="about">About</h1>
+    <img src="image/me1.jpg" alt="picture of me" class="me">
+    <p class="border2">Hola, my name is Edgar Hernandez. The oldest of four brothers.<br />
+    I was the first person in my family to go to college. I graduated from University of Oregon
+    with a concentration on Applied Economics,Business and Society.</p>
+    <div class="column1of2">
+      <h2>Interests</h2>
+      <ol>
+        <li>Basketball</li>
+        <li>Drawing</li>
+        <li>Beatmaking</li>
+        <li>Hip-hop</li>
+      </ol>
+   </div>
+   <div class="column2of2">
     <h2>Hobbies</h2>
     <ol>
       <li>Farming</li>
@@ -30,6 +38,7 @@
       <li>Dancing</li>
       <li>Karaoke</li>
     </ol>
-    <a href="mailto:edgarchortiz@gmail.com">Email Edgar</a>
+   </div>
+   <a href="mailto:edgarchortiz@gmail.com"><span class="email">Email Edgar</span></a>
   </body>
 </html>
