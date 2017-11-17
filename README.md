@@ -11,7 +11,7 @@ This web site will connect the user to my personal portfolio. On this site there
 Setup
 
 Clone this repository
-Open on any web browser of choice or view portfolio by going to my Github page link:  
+Open on any web browser of choice or view portfolio by going to my Github page link:https://edgarcho.github.io/portfolio-landing-page/  
 
 No Known Bugs
 
